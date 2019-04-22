@@ -10,24 +10,6 @@ class Shoe
      BRANDS.push(brand) unless BRANDS.include?(brand)
   end 
   
-  # my_array.push(item1) unless my_array.include?(item1)
-  
-  # def unique_brands
-  #   BRANDS.select do |x| 
-  #     x.uniq 
-  #     BRANDS << x 
-  #   end 
-  # end 
-  
-  #binding.pry 
-  
-  # def unique_brands(brands)
-  #   new_arr = []
- #    BRANDS.each do |x|
-  #     new_arr << x.uniq #    
-  #     BRANDS << new_arr
-  #   end 
-  # end 
     
   def cobble
     self.condition = "new"
